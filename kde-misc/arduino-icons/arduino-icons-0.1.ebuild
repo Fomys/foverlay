@@ -10,7 +10,7 @@ HOMEPAGE="https://www.arduino.cc/"
 
 LICENSE="UNKNOWN"
 SLOT="0"
-KEYWORDS="~amd64 ~x86"
+KEYWORDS="amd64"
 IUSE=""
 
 DEPEND=""
