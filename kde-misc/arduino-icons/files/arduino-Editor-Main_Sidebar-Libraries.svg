@@ -1,0 +1,6 @@
+<svg viewBox="0 0 20 20">
+	<title>Editor-Main_Sidebar-Libraries</title>
+	<g>
+		<path d="M19 4h-1V1.9c-.1-1-.9-1.8-2-1.9h-2.1c-1.1 0-1.8.8-1.9 1.9V4H8V1.9C7.9.8 7.1 0 6.1 0H4C2.9 0 2.1.8 2 1.9V4H1c-.6 0-1 .4-1 1v14c0 .6.4 1 1 1h18c.6 0 1-.4 1-1V5c0-.6-.4-1-1-1zm-5.1-2H16v2h-2.1V2zM4 2h2.1v2H4V2zm0 4h14v5.5H2V6h2zm6 12H2v-5.5h16V18h-8z"/>
+	</g>
+</svg>

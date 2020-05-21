@@ -1,0 +1,10 @@
+<svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+	<title>Editor-Ace-Fullscreen_Close</title>
+	<g>
+		<rect x="2.889" y="-.611" transform="rotate(134.999 3.89 3.89)" width="2" height="9" />
+		<rect x="19.111" y="-.611" transform="rotate(-134.999 20.11 3.89)" width="2" height="9" />
+		<rect x="19.111" y="15.611" transform="rotate(-45.001 20.11 20.111)" width="2" height="9" />
+		<rect x="2.889" y="15.611" transform="rotate(45.001 3.89 20.11)" width="2" height="9" />
+		<path d="M7.293 8.293a1 1 0 0 0 1-1v-7h-2v6h-6v2h7zM15.707 7.293a1 1 0 0 0 1 1h7v-2h-6v-6h-2v7zM16.707 16a1 1 0 0 0-1 1v7h2v-6h6v-2h-7zM8.293 17a1 1 0 0 0-1-1h-7v2h6v6h2v-7z" />
+	</g>
+</svg>
