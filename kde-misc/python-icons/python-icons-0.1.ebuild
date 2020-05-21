@@ -10,7 +10,7 @@ HOMEPAGE="https://www.python.org/"
 
 LICENSE="UNKNOWN"
 SLOT="0"
-KEYWORDS="~amd64"
+KEYWORDS="amd64"
 IUSE=""
 
 DEPEND=""
