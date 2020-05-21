@@ -21,5 +21,5 @@ S="${WORKDIR}"
 
 src_install() {
 #	default
-	doicon "${FILESDIR}/*.png"
+	doicon ${FILESDIR}/*.png
 }
