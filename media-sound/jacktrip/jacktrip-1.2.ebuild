@@ -17,7 +17,7 @@ RDEPEND="${DEPEND}"
 BDEPEND=""
 
 src_compile() {
-./build
+cd src/ && ./build
 }
 
 src_install() {
