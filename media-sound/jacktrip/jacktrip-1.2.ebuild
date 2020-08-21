@@ -3,7 +3,7 @@
 
 EAPI=7
 
-DESCRIPTION="JackTrip is a multi-machine audio system used for network music performance over the Internet."
+DESCRIPTION="JackTrip is a multi-machine audio system."
 HOMEPAGE="https://github.com/jacktrip/jacktrip"
 SRC_URI="https://github.com/jacktrip/jacktrip/archive/v1.2.zip"
 
