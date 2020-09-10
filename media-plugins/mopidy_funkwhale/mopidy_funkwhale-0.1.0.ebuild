@@ -20,4 +20,5 @@ KEYWORDS="~amd64"
 IUSE=""
 
 RDEPEND="
+	dev-python/requests-oauthlib[${PYTHON_USEDEP}]
 	>=media-sound/Mopidy-3.0.2[${PYTHON_USEDEP}]"
