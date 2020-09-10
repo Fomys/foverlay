@@ -6,8 +6,8 @@ EAPI=7
 PYTHON_COMPAT=( python3_7 )
 inherit distutils-r1
 
-DESCRIPTION="An extensible music server written in Python"
-HOMEPAGE="https://www.mopidy.com"
+DESCRIPTION="Mopidy extension for controlling Mopidy from MPD clients"
+HOMEPAGE="https://github.com/mopidy/mopidy-mpd"
 
 SRC_URI="mirror://pypi/${PN:0:1}/${PN}/${P}.tar.gz"
 
@@ -20,6 +20,4 @@ KEYWORDS="~amd64"
 IUSE=""
 
 RDEPEND="
-	>=www-servers/tornado-4.4[${PYTHON_USEDEP}]
-	>=dev-python/pykka-2.0.2[${PYTHON_USEDEP}]
-	dev-python/gst-python[${PYTHON_USEDEP}]"
+	>=media-sound/Mopidy-3.0.2[${PYTHON_USEDEP}]"
