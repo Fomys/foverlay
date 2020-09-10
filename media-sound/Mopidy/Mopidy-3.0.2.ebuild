@@ -21,4 +21,5 @@ IUSE=""
 
 RDEPEND="
 	>=www-servers/tornado-4.4[${PYTHON_USEDEP}]
-	>=dev-python/pykka-2.0.2[${PYTHON_USEDEP}]"
+	>=dev-python/pykka-2.0.2[${PYTHON_USEDEP}]
+	>=dev-python/gst-python[${PYTHON_USEDEP}]"
