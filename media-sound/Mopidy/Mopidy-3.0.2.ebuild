@@ -20,4 +20,5 @@ KEYWORDS="~amd64"
 IUSE=""
 
 RDEPEND="
-	>=www-servers/tornado-4.4[${PYTHON_USEDEP}]"
+	>=www-servers/tornado-4.4[${PYTHON_USEDEP}]
+	>=dev-python/pykka-2.0.2[${PYTHON_USEDEP}]"
