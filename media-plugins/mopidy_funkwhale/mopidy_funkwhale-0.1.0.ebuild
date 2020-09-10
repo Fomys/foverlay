@@ -11,8 +11,8 @@ HOMEPAGE="https://dev.funkwhale.audio/funkwhale/mopidy"
 
 SRC_URI="mirror://pypi/${PN:0:1}/${PN}/${P}.dev22.tar.gz"
 
-LICENSE="GLP-3"
-
+LICENSE="GPL-3"
+S="${WORKDIR}/${P}.dev22"
 SLOT="0"
 
 KEYWORDS="~amd64"
