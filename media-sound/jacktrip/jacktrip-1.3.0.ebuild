@@ -21,5 +21,5 @@ cd src/ && ./build
 }
 
 src_install() {
-cd src/ && dobin jacktrip
+cd builddir/ && dobin jacktrip
 }
