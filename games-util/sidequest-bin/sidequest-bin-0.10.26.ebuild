@@ -23,7 +23,7 @@ src_install() {
 	insinto /opt/${PF}
 	doins -r *
 	dosym /opt/${PF}/sidequest /usr/bin/sidequest
-	fperms 644 /opt/${PF}/sidequest
+	fperms 755 /opt/${PF}/sidequest
 
 	make_desktop_entry sidequest SideQuest /opt/${PF}/resources/app.asar.unpacked/build/icon.ico "Game"
 }
