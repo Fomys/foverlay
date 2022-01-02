@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>contact@louischauvet.fr</email>
+		<name>Louis Chauvet</name>
+	</maintainer>
+	<longdescription>
+		SideQuest is a place to get more apps for your Oculus Quest, it is a completely safe way to enjoy some cutting edge content in VR and expand the capability of your standalone VR headset. We make it easier for users to access content that is not yet available on the Oculus Store and as a proving ground for developers to validate their content and kick start their communities. SideQuest is completely free for users and developers and always will be. We are committed to supporting the VR industry.
+	</longdescription>
+</pkgmetadata>
+
