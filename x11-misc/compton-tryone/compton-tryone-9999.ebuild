@@ -14,7 +14,7 @@ EGIT_REPO_URI="https://github.com/tryone144/compton.git"
 
 LICENSE="MIT"
 SLOT="0"
-KEYWORDS="~amd64 ~x86"
+KEYWORDS=""
 IUSE="dbus +drm opengl +pcre xinerama"
 REQUIRED_USE="${PYTHON_REQUIRED_USE}"
 
