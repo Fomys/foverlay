@@ -1,0 +1,11 @@
+--- ghdl-3.0.0/pyGHDL/libghdl/__init__.py
++++ ghdl-3.0.0/pyGHDL/libghdl/__init__.py
+@@ -95,7 +95,7 @@
+     if bindir is None:
+         raise ValueError("Parameter 'bindir' is None.")
+
+-    return _check_libghdl_libdir((bindir / "../lib").resolve(), basename)
++    return _check_libghdl_libdir((bindir / "../lib64").resolve(), basename)
+
+
+ @export

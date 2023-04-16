@@ -9,23 +9,15 @@ SRC_URI="https://github.com/ghdl/ghdl/archive/refs/tags/v${PV}.tar.gz -> ${P}.ta
 
 LICENSE="GPL-2"
 SLOT="0"
-KEYWORDS="~amd64"
+KEYWORDS="amd64"
 IUSE=""
 
-#DEPEND="sys-devel/gcc[ada]"
-#RDEPEND="${DEPEND}"
-
-DEPEND=""
-RDEPEND=""
-
 src_configure() {
-	./configure --help
 	./configure --prefix=/usr --libdir=lib64
 	# TODO: gcc, llvm, libghdl
 }
 
 src_compile() {
-	ls
 	emake
 }
 
