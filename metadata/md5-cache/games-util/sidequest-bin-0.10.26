@@ -1,0 +1,11 @@
+DEFINED_PHASES=install unpack
+DESCRIPTION=SideQuest is a place to get more apps for your Oculus Quest.
+EAPI=7
+HOMEPAGE=https://sidequestvr.com/
+INHERIT=desktop
+KEYWORDS=~amd64
+LICENSE=MIT
+SLOT=0
+SRC_URI=https://github.com/SideQuestVR/SideQuest/releases/download/v0.10.26/SideQuest-0.10.26.tar.xz
+_eclasses_=desktop	021728fdc1b03b36357dbc89489e0f0d
+_md5_=38f3e4cdd5fae1ed2fd97cfec485dbfb

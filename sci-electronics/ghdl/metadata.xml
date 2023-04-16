@@ -5,5 +5,8 @@
 		<email>contact@louischauvet.fr</email>
 		<name>Louis Chauvet</name>
 	</maintainer>
+	<upstream>
+		<remote-id type="github">ghdl/ghdl</remote-id>
+	</upstream>
 </pkgmetadata>
 

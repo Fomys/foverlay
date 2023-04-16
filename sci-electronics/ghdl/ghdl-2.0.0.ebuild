@@ -5,7 +5,7 @@ EAPI=6
 
 DESCRIPTION="VHDL 2008/93/87 simulator"
 HOMEPAGE="http://ghdl.free.fr/"
-SRC_URI="https://github.com/ghdl/ghdl/archive/v${PV}.tar.gz"
+SRC_URI="https://github.com/ghdl/ghdl/archive/v${PV}.tar.gz -> ${P}.tar.gz"
 
 LICENSE="GPL-2"
 SLOT="0"
