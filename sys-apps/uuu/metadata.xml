@@ -1,0 +1,8 @@
+<pkgmetadata>
+	<upstream>
+		<remote-id type="github">nxp-imx/mfgtools</remote-id>
+	</upstream>
+	<maintainer type="person">
+		<email>gentoo@louischauvet.fr</email>
+	</maintainer>
+</pkgmetadata>
