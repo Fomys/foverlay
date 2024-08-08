@@ -14,7 +14,10 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 DEPEND="
-	gui-apps/rofi-wayland
+	|| (
+		gui-apps/rofi-wayland
+		x11-misc/rofi
+	)
 	>=sci-libs/libqalculate-2.0
 "
 RDEPEND="${DEPEND}"
