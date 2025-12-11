@@ -1,0 +1,7 @@
+Type=Application
+Terminal=false
+Exec="/opt/unigraf/UCDPlayback.AppImage"
+Name=UCD Playback
+Icon=UCDPlayback
+Categories=AudioVideo;Audio;Video;
+StartupWMClass=UCD Playback

@@ -1,0 +1,7 @@
+Type=Application
+Terminal=false
+Exec="/opt/unigraf/UCDConfig.AppImage"
+Name=UCD Config
+Icon=UCDConfig
+Categories=AudioVideo;Audio;Video;
+StartupWMClass=UCD Config

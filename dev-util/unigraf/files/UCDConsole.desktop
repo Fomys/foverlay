@@ -1,0 +1,7 @@
+Type=Application
+Terminal=false
+Exec=/opt/unigraf/UCDConsole.AppImage"
+Name=UCD Console
+Icon=UCDConsole
+Categories=AudioVideo;Audio;Video;
+StartupWMClass=UCD Console

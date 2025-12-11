@@ -1,0 +1,7 @@
+Type=Application
+Terminal=false
+Exec="opt/unigraf/UCDTimelineViewer.AppImage"
+Name=UCD Timeline Viewer
+Icon=UCDTimelineViewer
+Categories=AudioVideo;Audio;Video;
+StartupWMClass=UCD Timeline Viewer

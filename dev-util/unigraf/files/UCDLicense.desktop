@@ -1,0 +1,7 @@
+Type=Application
+Terminal=false
+Exec="/opt/unigraf/UCDLicense.AppImage"
+Name=UCD License
+Icon=UCDLicense
+Categories=AudioVideo;Audio;Video;
+StartupWMClass=UCD License
