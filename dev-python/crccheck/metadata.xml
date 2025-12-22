@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "https://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<upstream>
+		<bugs-to>https://github.com/MartinScharrer/crccheck/issues</bugs-to>
+		<changelog>https://github.com/MartinScharrer/crccheck/releases</changelog>
+		<remote-id type="github">MartinScharrer/crccheck</remote-id>
+		<remote-id type="pypi">crccheck</remote-id>
+	</upstream>
+</pkgmetadata>
