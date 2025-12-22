@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "https://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<upstream>
+		<bugs-to>https://github.com/msoulier/tftpy/issues</bugs-to>
+		<changelog>https://github.com/msoulier/tftpy/tags</changelog>
+		<doc>https://msoulier.github.io/tftpy/pages/html/index.html</doc>
+		<remote-id type="github">msoulier/tftpy</remote-id>
+		<remote-id type="pypi">tftpy</remote-id>
+	</upstream>
+</pkgmetadata>
