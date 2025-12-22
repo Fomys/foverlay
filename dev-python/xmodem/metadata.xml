@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE pkgmetadata SYSTEM "https://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<upstream>
+		<doc>https://pythonhosted.org/xmodem/</doc>
+		<bugs-to>https://github.com/tehmaze/xmodem/issues</bugs-to>
+		<changelog>https://github.com/tehmaze/xmodem</changelog>
+		<remote-id type="github">tehmaze/xmodem</remote-id>
+	</upstream>
+</pkgmetadata>
