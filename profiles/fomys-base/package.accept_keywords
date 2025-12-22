@@ -1,0 +1,54 @@
+# Apps I want to be on latest git
+=app-text/typst-9999 **
+=gui-wm/sway-9999 **
+=gui-libs/wlroots-9999 **
+=app-text/scdoc-9999 **
+=net-im/nheko-9999 **
+=gui-apps/waybar-9999 **
+=dev-python/snagboot-9999 **
+=sys-apps/portage-9999 **
+=x11-misc/rofi-9999 **
+=x11-apps/igt-gpu-tools-9999 **
+
+# Apps from guru
+sys-apps/drm_info::guru ~amd64
+net-irc/halloy::guru amd64
+sci-electronics/logic-bin::guru ~amd64
+app-misc/cliphist::guru ~amd64
+gui-apps/wob::guru ~amd64
+app-misc/brightnessctl::guru ~amd64
+gui-apps/wev::guru ~amd64
+dev-python/pygls::guru ~amd64
+gui-apps/wdisplays::guru ~amd64
+media-fonts/nerdfonts::guru ~amd64
+net-dialup/tio::guru ~amd64
+net-irc/halloy::guru ~amd64
+
+# Apps from foverlay
+dev-util/unigraf::foverlay ~amd64
+dev-python/xmodem::foverlay ~amd64
+net-vpn/netbird::foverlay ~amd64
+
+# Unstable apps
+=sys-power/wluma-4.9.0 ~amd64
+=gui-apps/kanshi-1.8.0-r1 ~amd64
+=x11-misc/pcmanfm-1.3.2-r2 ~amd64
+=x11-misc/rofi-calc-2.4.0 ~amd64
+=games-util/xboxdrv-0.8.11 ~amd64
+
+# Dependencies
+
+# x11-misc/pcmanfm
+=x11-libs/libfm-1.3.2-r1 ~amd64
+# net-im/nheko
+=dev-db/lmdb++-1.0.0-r1 ~amd64
+# gui-apps/kanshi
+=dev-libs/libscfg-0.2.0 ~amd64
+# dev-python/pygls
+=dev-python/lsprotocol-2025.0.0 ~amd64
+
+# snagboot
+=dev-python/tftpy-0.8.6::foverlay ~amd64
+=dev-python/crccheck-1.3.1::forverlay ~amd64
+=dev-python/crccheck-1.3.1::foverlay ~amd64
+=dev-python/pyfatfs-1.1.0::foverlay ~amd64

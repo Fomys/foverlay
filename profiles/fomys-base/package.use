@@ -1,0 +1,83 @@
+# Require X for sway for XWayland, old applications and ssh X forwarding
+gui-wm/sway X
+
+# Package-specific
+www-client/firefox hwaccel
+mail-client/thunderbird hwaccel
+media-video/pipewire sound-server extra
+sys-kernel/installkernel efistub -dracut ugrd
+media-fonts/iosevka iosevka-ss14
+app-emulation/qemu virtfs
+x11-libs/libdrm tools
+sys-process/htop lm-sensors
+x11-apps/mesa-progs vulkan
+app-portage/pfl -network-cron
+media-libs/mesa vulkan lm-sensors opencl
+media-video/mpv -xv
+media-sound/picard fingerprints
+net-misc/networkmanager resolvconf
+
+
+# Libproxy
+www-client/firefox libproxy
+mail-client/thunderbird libproxy
+net-misc/wget libproxy
+dev-qt/qtbase libproxy
+dev-qt/qtnetwork libproxy
+# H264 support
+media-video/ffmpeg openh264
+www-client/firefox openh264
+# PGO
+www-client/firefox pgo
+mail-client/thunderbird pgo
+app-arch/xz-utils pgo
+app-shells/bash pgo
+dev-lang/python pgo
+sys-devel/binutils pgo
+sys-devel/gcc pgo
+# Pipewire
+app-emulation/qemu pipewire
+dev-qt/qtmultimedia pipewire
+gui-apps/waybar pipewire
+media-libs/libsdl2 pipewire
+media-video/mpv pipewire
+
+
+app-emulation/libvirt libssh2
+app-emulation/qemu qemu_softmmu_targets_aarch64 qemu_softmmu_targets_arm qemu_softmmu_targets_ppc qemu_softmmu_targets_ppc64 qemu_softmmu_targets_x86_64
+app-emulation/qemu qemu_user_targets_aarch64 qemu_user_targets_arm qemu_user_targets_ppc qemu_user_targets_ppc64 qemu_user_targets_x86_64
+
+# Requirement for some apps, need to be checked regularly!
+
+# sys-kernel/virtme-ng
+sys-apps/busybox -pam static
+
+# gui-wm/sway-9999
+gui-libs/wlroots X
+
+# for net-im/signal-desktop-bin-7.82.0-r1
+media-libs/mesa X
+
+# for gui-apps/waybar-9999::foverlay
+x11-libs/gtk+ X
+media-libs/libepoxy X
+x11-libs/cairo X
+dev-python/pycairo X
+dev-cpp/cairomm X
+dev-cpp/gtkmm X
+
+# for www-client/firefox-140.5.0::gentoo
+media-libs/libglvnd X
+media-libs/libvpx postproc
+
+# for snagboot
+sys-apps/dtc python
+
+# for net-im/nheko
+dev-qt/qtmultimedia gstreamer
+
+# for net-print/hplip
+net-dns/avahi python
+
+# for media-sound/picard
+media-libs/chromaprint tools

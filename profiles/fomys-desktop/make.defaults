@@ -1,0 +1,15 @@
+# GPG key to use when signing
+BINPKG_GPG_SIGNING_GPG_HOME="/etc/portage/gnupg"
+BINPKG_GPG_SIGNING_KEY="236219E7392599ECBE16A173FF48653422AB3F87 --batch --pinentry-mode loopback --passphrase-file '/etc/portage/gnupg/pass'"
+
+# Hardware specific informations
+CPU_FLAGS_X86="-* aes avx avx2 f16c fma3 mmx mmxext pclmul popcnt rdrand sha sse sse2 sse3 sse4_1 sse4_2 sse4a ssse3"
+VIDEO_CARDS="-* amdgpu radeonsi radeon zink"
+AMDGPU_TARGETS="-* gfx1102"
+
+COMMON_FLAGS="${COMMON_FLAGS} -march=znver2 --param=l1-cache-line-size=64 --param=l1-cache-size=32 --param=l2-cache-size=512"
+CFLAGS="${COMMON_FLAGS}"
+CXXFLAGS="${COMMON_FLAGS}"
+FCFLAGS="${COMMON_FLAGS}"
+FFLAGS="${COMMON_FLAGS}"
+RUSTFLAGS="${RUSTFLAGS} -Ctarget-cpu=znver2"

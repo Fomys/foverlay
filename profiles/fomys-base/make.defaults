@@ -1,0 +1,29 @@
+LC_MESSAGES=C.UTF-8
+
+# Portage configuration to avoid freezing the system
+PORTAGE_SCHEDULING_POLICY="idle"
+PORTAGE_NICENESS="19"
+PORTAGE_IONICE_COMMAND="ionice -c 3 -p \${PID}"
+FEATURES="${FEATURES} getbinpkg buildpkg binpkg-signing binpkg-multi-instance buildpkg-live"
+#FEATUREs="${FEATURES} test"
+
+# Build options
+COMMON_FLAGS="-O2 -pipe"
+
+# Languages: only french and english
+L10N="-* en en-US fr"
+LINGUAS="-* en fr"
+
+# Python version
+PYTHON_TARGETS="-* python3_12 python3_13"
+PYTHON_SINGLE_TARGET="-* python3_13"
+
+# Disable X and only enable wayland
+USE="${USE} wayland -X"
+
+# Generic features
+USE="${USE} -accessibility -telemetry nls dbus lto"
+USE="${USE} pulseaudio ffmpeg"
+
+# Hardware support
+USE="${USE} vaapi"
