@@ -1,4 +1,5 @@
 EAPI=8
+
 DESCRIPTION="pyfatfs is a library to interact with FAT filesystems"
 HOMEPAGE="https://github.com/nathanhi/pyfatfs"
 LICENSE="MIT"
