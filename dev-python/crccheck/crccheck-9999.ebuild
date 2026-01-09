@@ -1,4 +1,5 @@
 EAPI=8
+
 DESCRIPTION="Classes to calculate CRCs and checksums from binary data"
 HOMEPAGE="https://github.com/MartinScharrer/crccheck"
 LICENSE="MIT"
