@@ -1,0 +1,18 @@
+# Bleeding edge
+=sci-misc/llama-cpp-9999::guru **
+
+# Dependency of llama-cpp
+dev-util/hip ~amd64
+sci-libs/hipBLAS ~amd64
+sci-libs/rocBLAS ~amd64
+sci-libs/hipBLAS-common ~amd64
+dev-build/rocm-cmake ~amd64
+dev-util/Tensile ~amd64
+dev-util/rocm-smi ~amd64
+dev-util/rocminfo ~amd64
+dev-libs/rocm-comgr ~amd64
+dev-libs/rocr-runtime ~amd64
+dev-libs/rocm-core ~amd64
+dev-util/hipcc ~amd64
+dev-libs/roct-thunk-interface ~amd64
+dev-libs/rocm-device-libs ~amd64
