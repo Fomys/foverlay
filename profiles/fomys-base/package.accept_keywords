@@ -23,6 +23,7 @@ gui-apps/wdisplays::guru ~amd64
 media-fonts/nerdfonts::guru ~amd64
 net-dialup/tio::guru ~amd64
 net-irc/halloy::guru ~amd64
+mpv-plugin/mpv-mpris::guru ~amd64
 
 # Apps from foverlay
 dev-util/unigraf::foverlay ~amd64

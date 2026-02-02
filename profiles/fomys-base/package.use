@@ -16,7 +16,7 @@ media-libs/mesa vulkan lm-sensors opencl
 media-video/mpv -xv
 media-sound/picard fingerprints
 net-misc/networkmanager resolvconf
-
+gui-apps/waybar mpris tray
 
 # Libproxy
 www-client/firefox libproxy

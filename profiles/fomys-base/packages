@@ -57,6 +57,7 @@
 *media-video/mpv
 *media-sound/picard
 *kde-apps/ark
+*mpv-plugin/mpv-mpris
 
 # Development tools
 *net-dns/bind
@@ -110,6 +111,8 @@
 *dev-python/snagboot
 *sys-kernel/virtme-ng
 *net-wireless/iwd
+*dev-util/pycharm-professional
+*dev-python/jinja2
 
 # System apps
 *app-eselect/eselect-python
