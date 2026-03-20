@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "https://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@louischauvet.fr</email>
+		<name>Louis Chauvet</name>
+	</maintainer>
+	<stabilize-allarches/>
+	<upstream>
+		<remote-id type="pypi">b4</remote-id>
+	</upstream>
+	<use>
+		<flag name="tui">
+			Enable review tui
+		</flag>
+	</use>
+</pkgmetadata>
