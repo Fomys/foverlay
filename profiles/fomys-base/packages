@@ -58,6 +58,7 @@
 *media-sound/picard
 *kde-apps/ark
 *mpv-plugin/mpv-mpris
+*media-gfx/prusaslicer
 
 # Development tools
 *net-dns/bind
@@ -65,6 +66,7 @@
 *app-containers/distrobox
 *app-containers/docker
 *app-containers/docker-cli
+*app-containers/docker-compose
 *app-emulation/libvirt
 *app-emulation/qemu
 *app-emulation/virt-manager
@@ -113,6 +115,8 @@
 *net-wireless/iwd
 *dev-util/pycharm-professional
 *dev-python/jinja2
+*app-backup/restic
+*app-misc/screen
 
 # System apps
 *app-eselect/eselect-python
