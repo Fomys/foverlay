@@ -82,3 +82,6 @@ net-dns/avahi python
 
 # for media-sound/picard
 media-libs/chromaprint tools
+
+# for app-emulation/virt-manager
+net-libs/gnutls tools pkcs11
