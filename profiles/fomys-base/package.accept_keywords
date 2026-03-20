@@ -9,6 +9,7 @@
 =sys-apps/portage-9999 **
 =x11-misc/rofi-9999 **
 =x11-apps/igt-gpu-tools-9999 **
+=net-mail/b4-9999 **
 
 # Apps from guru
 sys-apps/drm_info::guru ~amd64
@@ -24,6 +25,8 @@ media-fonts/nerdfonts::guru ~amd64
 net-dialup/tio::guru ~amd64
 net-irc/halloy::guru ~amd64
 mpv-plugin/mpv-mpris::guru ~amd64
+app-misc/via ~amd64
+dev-python/textual ~amd64
 
 # Apps from foverlay
 dev-util/unigraf::foverlay ~amd64
