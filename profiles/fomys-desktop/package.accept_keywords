@@ -16,3 +16,8 @@ dev-libs/rocm-core ~amd64
 dev-util/hipcc ~amd64
 dev-libs/roct-thunk-interface ~amd64
 dev-libs/rocm-device-libs ~amd64
+
+# For steam
+games-util/steam-launcher::steam-overlay ~amd64
+sys-libs/libudev-compat ~amd64
+games-util/game-device-udev-rules ~amd64

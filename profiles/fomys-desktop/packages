@@ -1,2 +1,15 @@
 # llama can only be used with a big GPU
 *sci-misc/llama-cpp
+
+*sys-apps/amdgpu_top
+
+# Wine
+*app-emulation/wine-proton
+*app-emulation/wine-vanilla
+*app-emulation/winetricks
+
+# Windows VM
+*net-misc/freerdp
+
+# Games
+*games-util/steam-launcher
