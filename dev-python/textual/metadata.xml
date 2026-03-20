@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM 'https://www.gentoo.org/dtd/metadata.dtd'>
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo@louischauvet.fr</email>
+		<name>Louis Chauvet</name>
+	</maintainer>
+	<upstream>
+		<remote-id type="pypi">textual</remote-id>
+		<remote-id type="github">Textualize/textual</remote-id>
+		<doc>https://textual.textualize.io/</doc>
+	</upstream>
+	<use>
+		<flag name="syntax">
+			Enable syntax highlighting support
+		</flag>
+	</use>
+</pkgmetadata>
