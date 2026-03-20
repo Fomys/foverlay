@@ -2,8 +2,8 @@
 <!DOCTYPE pkgmetadata SYSTEM "https://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<maintainer type="person">
-		<name>Florian Schmaus</name>
-		<email>flow@gentoo.org</email>
+		<email>gentoo@louischauvet.fr</email>
+		<name>Louis Chauvet</name>
 	</maintainer>
 	<use>
 		<flag name="drun">Enable desktop file run dialog</flag>
