@@ -16,7 +16,7 @@ RDEPEND="app-arch/bzip2
 	>=dev-libs/libusb-1.0.16
 	dev-libs/openssl
 	dev-libs/tinyxml2
-	sys-libs/zlib"
+	virtual/zlib"
 DEPEND="${RDEPEND}
 	dev-libs/libzip"
 
