@@ -59,6 +59,7 @@
 *kde-apps/ark
 *mpv-plugin/mpv-mpris
 *media-gfx/prusaslicer
+*media-gfx/freecad
 
 # Development tools
 *net-dns/bind

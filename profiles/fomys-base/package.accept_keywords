@@ -10,6 +10,7 @@
 =x11-misc/rofi-9999 **
 =x11-apps/igt-gpu-tools-9999 **
 =net-mail/b4-9999 **
+=media-gfx/freecad-9999 **
 
 # Apps from guru
 sys-apps/drm_info::guru ~amd64

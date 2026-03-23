@@ -35,6 +35,9 @@ app-shells/bash pgo
 dev-lang/python pgo
 sys-devel/binutils pgo
 sys-devel/gcc pgo
+# Freecad
+dev-python/pyside uitools
+x11-libs/wxGTK gstreamer
 # Pipewire
 app-emulation/qemu pipewire
 dev-qt/qtmultimedia pipewire
