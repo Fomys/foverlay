@@ -35,9 +35,6 @@ app-shells/bash pgo
 dev-lang/python pgo
 sys-devel/binutils pgo
 sys-devel/gcc pgo
-# Freecad
-dev-python/pyside uitools
-x11-libs/wxGTK gstreamer
 # Pipewire
 app-emulation/qemu pipewire
 dev-qt/qtmultimedia pipewire
@@ -88,3 +85,8 @@ media-libs/chromaprint tools
 
 # for app-emulation/virt-manager
 net-libs/gnutls tools pkcs11
+
+# for media-gfx/freecad
+dev-python/pyside uitools
+x11-libs/wxGTK gstreamer
+media-libs/tiff lzma zstd

@@ -64,3 +64,13 @@ media-video/ffmpeg			abi_x86_32
 media-libs/gst-plugins-base		abi_x86_32
 media-libs/gst-plugins-bad		abi_x86_32
 app-arch/brotli				abi_x86_32
+media-libs/libpng			abi_x86_32
+dev-util/spirv-tools			abi_x86_32
+media-libs/libjpeg-turbo		abi_x86_32
+media-libs/tiff				abi_x86_32
+dev-libs/elfutils			abi_x86_32
+sys-apps/systemd-utils			abi_x86_32
+media-libs/tiff				abi_x86_32
+sys-libs/pam				abi_x86_32
+dev-libs/openssl			abi_x86_32
+media-plugins/gst-plugins-libav		abi_x86_32
