@@ -1,8 +1,5 @@
 sci-misc/llama-cpp hip flexiblas opencl curl rocm
 
-# for prusaslicer
-x11-libs/wxGTK webkit X
-
 # for picard
 dev-python/pyqt5 declarative
 

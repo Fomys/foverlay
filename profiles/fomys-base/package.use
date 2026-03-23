@@ -86,7 +86,11 @@ media-libs/chromaprint tools
 # for app-emulation/virt-manager
 net-libs/gnutls tools pkcs11
 
+# for media-gfx/prusaslicer
+x11-libs/wxGTK webkit X
+
 # for media-gfx/freecad
 dev-python/pyside uitools
 x11-libs/wxGTK gstreamer
 media-libs/tiff lzma zstd
+sci-libs/opencascade json
