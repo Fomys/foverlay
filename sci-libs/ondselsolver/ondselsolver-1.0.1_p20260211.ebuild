@@ -5,17 +5,16 @@ EAPI=8
 
 inherit cmake
 
-EGIT_REPO_URI="https://github.com/FreeCAD/OndselSolver"
-
-if [ "${PV}" = "9999" ]; then
-	inherit git-r3
-fi
+COMMIT=9e8a88547e1ee7db534df1921dd694aa3b690d04
 
 DESCRIPTION="Assembly Constraints and Multibody Dynamics code"
 HOMEPAGE="https://github.com/FreeCAD/OndselSolver/"
+SRC_URI="https://github.com/FreeCAD/OndselSolver/archive/${COMMIT}.tar.gz -> ${P}.tar.gz"
+S="${WORKDIR}/OndselSolver-${COMMIT}"
 
 LICENSE="LGPL-2.1"
 SLOT="0"
+KEYWORDS="amd64"
 
 IUSE="test"
 RESTRICT="!test? ( test )"
