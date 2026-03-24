@@ -51,6 +51,8 @@ net-vpn/netbird::foverlay ~amd64
 =dev-libs/libscfg-0.2.0 ~amd64
 # dev-python/pygls
 =dev-python/lsprotocol-2025.0.0 ~amd64
+# media-gfx/freecad
+=sci-libs/ondselsolver-9999 **
 
 # snagboot
 =dev-python/tftpy-0.8.6::foverlay ~amd64

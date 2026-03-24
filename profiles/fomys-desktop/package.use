@@ -71,3 +71,8 @@ media-libs/tiff				abi_x86_32
 sys-libs/pam				abi_x86_32
 dev-libs/openssl			abi_x86_32
 media-plugins/gst-plugins-libav		abi_x86_32
+app-crypt/p11-kit			abi_x86_32
+dev-lang/rust				abi_x86_32
+media-libs/shaderc			abi_x86_32
+dev-util/glslang			abi_x86_32
+media-libs/libjxl			abi_x86_32

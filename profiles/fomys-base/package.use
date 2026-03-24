@@ -17,6 +17,7 @@ media-video/mpv -xv
 media-sound/picard fingerprints
 net-misc/networkmanager resolvconf
 gui-apps/waybar mpris tray
+media-gfx/freecad addonmgr assembly cam fem idf inspection netgen openscad pcl points reverse robot surface
 
 # Libproxy
 www-client/firefox libproxy
@@ -93,4 +94,5 @@ x11-libs/wxGTK webkit X
 dev-python/pyside uitools
 x11-libs/wxGTK gstreamer
 media-libs/tiff lzma zstd
+sci-libs/hdf5 cxx
 sci-libs/opencascade json
