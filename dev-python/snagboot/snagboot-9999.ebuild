@@ -28,7 +28,6 @@ RDEPEND="
 		>=dev-python/tftpy-0.8.2[${PYTHON_USEDEP}]
 		>=dev-python/crccheck-1.3.0[${PYTHON_USEDEP}]
 		>=dev-python/packaging-24.2[${PYTHON_USEDEP}]
-		>=dev-python/pyfatfs-1.1.0[${PYTHON_USEDEP}]
 	')
 	>=sys-apps/dtc-1.7.2[python,${PYTHON_SINGLE_USEDEP}]
 	virtual/udev
