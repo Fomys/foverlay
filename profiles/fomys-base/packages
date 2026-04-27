@@ -55,7 +55,6 @@
 *app-text/xournalpp
 *media-gfx/imv
 *media-video/mpv
-*media-sound/picard
 *kde-apps/ark
 *mpv-plugin/mpv-mpris
 *media-gfx/prusaslicer
@@ -82,7 +81,6 @@
 *dev-python/attrs
 *dev-python/gitpython
 *dev-python/pip
-*dev-python/pipenv
 *dev-python/pygls
 *dev-python/uv
 *dev-util/android-tools
