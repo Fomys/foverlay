@@ -58,6 +58,7 @@
 *mpv-plugin/mpv-mpris
 *media-gfx/prusaslicer
 *media-gfx/freecad
+*sci-electronics/kicad-meta
 
 # Development tools
 *net-dns/bind
