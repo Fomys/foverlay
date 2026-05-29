@@ -28,6 +28,8 @@ RDEPEND="
 	>=dev-python/patatt-0.6[${PYTHON_USEDEP}]
 	>=dev-python/requests-2.24[${PYTHON_USEDEP}]
 	>=dev-vcs/git-filter-repo-2.47[${PYTHON_USEDEP}]
+	>=dev-python/liblore-0.7.1[${PYTHON_USEDEP}]
+	>=dev-python/pygit2-1.19.1[${PYTHON_USEDEP}]
 	tui? (
 		>=dev-python/textual-1.0[syntax,${PYTHON_USEDEP}]
 	)
