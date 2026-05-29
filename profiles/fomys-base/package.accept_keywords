@@ -11,6 +11,9 @@
 =x11-apps/igt-gpu-tools-9999 **
 =net-mail/b4-9999 **
 =media-gfx/freecad-9999 **
+=sys-kernel/vanilla-kernel-9999 **
+=virtual/dist-kernel-9999 **
+
 
 # Apps from guru
 sys-apps/drm_info::guru ~amd64
@@ -26,27 +29,26 @@ media-fonts/nerdfonts::guru ~amd64
 net-dialup/tio::guru ~amd64
 net-irc/halloy::guru ~amd64
 mpv-plugin/mpv-mpris::guru ~amd64
-app-misc/via ~amd64
-dev-python/textual ~amd64
+dev-python/textual::guru ~amd64
 
 # Apps from foverlay
 dev-util/unigraf::foverlay ~amd64
 dev-python/xmodem::foverlay ~amd64
-net-vpn/netbird::foverlay ~amd64
 
-# Unstable apps
-=sys-power/wluma-4.9.0 ~amd64
-=gui-apps/kanshi-1.8.0-r1 ~amd64
-=x11-misc/pcmanfm-1.3.2-r2 ~amd64
-=x11-misc/rofi-calc-2.4.0 ~amd64
-=games-util/xboxdrv-0.8.11 ~amd64
-=media-gfx/superslicer-2.7.61.10 ~amd64
-=dev-vcs/git-2.54.0 ~amd64
+# Unstable apps from gentoo overlay
+gui-apps/kanshi::gentoo ~amd64
+www-client/firefox:rapid::gentoo ~amd64
+x11-misc/pcmanfm::gentoo ~amd64
+x11-misc/rofi-calc::gentoo ~amd64
+games-util/xboxdrv::gentoo ~amd64
+media-gfx/superslicer::gentoo ~amd64
 
-# Dependencies
+# Unstable for more features
+=dev-vcs/git-2.54.0::gentoo ~amd64
+
 
 # x11-misc/pcmanfm
-=x11-libs/libfm-1.3.2-r1 ~amd64
+x11-libs/libfm::gentoo ~amd64
 # net-im/nheko
 =dev-db/lmdb++-1.0.0-r1 ~amd64
 # gui-apps/kanshi
@@ -56,6 +58,5 @@ net-vpn/netbird::foverlay ~amd64
 
 # snagboot
 =dev-python/tftpy-0.8.6::foverlay ~amd64
-=dev-python/crccheck-1.3.1::forverlay ~amd64
 =dev-python/crccheck-1.3.1::foverlay ~amd64
-=dev-python/pyfatfs-1.1.0::foverlay ~amd64
+

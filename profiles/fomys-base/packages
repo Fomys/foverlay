@@ -49,7 +49,7 @@
 *net-im/nheko
 *net-im/signal-desktop-bin
 *net-irc/halloy
-*www-client/firefox
+*www-client/firefox:rapid
 *x11-misc/pcmanfm
 *app-text/xournalpp
 *media-gfx/imv
@@ -135,7 +135,7 @@
 *sys-fs/fuse:0
 *sys-kernel/linux-firmware
 *sys-kernel/installkernel
-*sys-kernel/gentoo-kernel-bin
+*sys-kernel/gentoo-kernel
 *sys-process/cronie
 *sys-apps/util-linux
 *sys-apps/pkgcore
